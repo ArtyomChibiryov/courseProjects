@@ -32,7 +32,7 @@ class Circle {
     public void setColor(String color){
         this.color = color;
     }
-
+    //toString
     public Circle getCurrentObject(){
         return this;
     }
@@ -41,8 +41,5 @@ class Circle {
         return 3.14*radius*radius;
     }
 
-    public String toString(){
-        return "Circle[radius=" + radius + ",color=" + color + "]";//+подстановка значений
-    }
 
 }
